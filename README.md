@@ -23,8 +23,11 @@ cp /usr/lib/x86_64-linux-gnu/libstdc++.so.6 $CONDA_PATH/envs/facemaps/lib
 ### Dependencies:
 ```bash
 conda install -c conda-forge dlib=19.4
+https://docs.conda.io/projects/conda/en/latest/commands/install.html
 conda install pytorch torchvision -c soumith
+https://pytorch.org/get-started/locally/
 pip install -r requirements.txt
+https://pypi.org/project/conda/
 ```
 
 # Deploying a local copy
